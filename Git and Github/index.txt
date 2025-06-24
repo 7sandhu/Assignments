@@ -1,0 +1,96 @@
+Question 1
+
+Task-1: Initialize a Git repository
+We use Git to track changes in our project. Initializing a repository sets up Git in the folder and prepares it for version control.
+
+Task-2: Create script.js with a JavaScript function
+We create a file named script.js and write a simple function (e.g., a greeting message) to begin our JavaScript project.
+
+Task-3: Add and commit the changes
+We add the new file to Git and make a commit. This saves the current state of the project so we can track or revert changes later.
+
+
+
+Question 2
+
+
+Task-1: Create a new branch named feature-greeting
+A new branch called feature-greeting is created to work on a new feature without affecting the main codebase.
+
+Task-2: Switch to the new branch
+We switch to the feature-greeting branch to start working on the new feature independently.
+
+Task-3: Add a new function in script.js that displays a personalized greeting
+A new function is added to script.js that prints a custom greeting message using a user’s name.
+
+Task-4: Commit the changes in the feature branch
+The updated file is committed in the feature-greeting branch to save the changes with a message describing the update.
+
+Task-5: Merge feature-greeting into the main branch
+Once the feature is complete, it is merged into the main branch so the new function becomes part of the main project.
+
+Task-6: Switch back to the main branch
+After merging, we switch back to the main branch to continue working from the updated main codebase.
+
+
+
+Question 3
+
+
+Task-1: Create a GitHub repository for your JavaScript project
+A new repository is created on GitHub to host the JavaScript project online and enable collaboration.
+
+Task-2: Push your local repository to the GitHub repository
+The local Git project is connected to the GitHub repository and pushed online so that others can access the code.
+
+Task-3: Invite a team member to collaborate on the GitHub repository
+A team member is added as a collaborator through GitHub settings, allowing them to access and contribute to the repository.
+
+Task-4: Your team member should clone the repository and make a change
+The collaborator clones the repository to their local system, makes a change (e.g., edits a file), and pushes the update.
+
+Task-5: Fetch and merge the changes made by your team member
+The original user fetches the latest changes from GitHub and merges them into their local main branch to keep the project updated.
+
+
+
+
+Question 4
+
+1. Create a new branch named feature-update
+A new branch feature-update is created to work on a separate set of changes without affecting the main code.
+
+2. Switch to the new branch and make changes to script.js
+We switch to the feature-update branch and modify the script.js file with new updates or features.
+
+3. Commit the changes in the feature branch
+The changes made in script.js are saved by committing them in the feature-update branch.
+
+4. Switch back to the main branch and make different changes to script.js
+After finishing the feature branch work, we return to the main branch and make a separate, unrelated set of changes to script.js.
+
+5. Commit the changes in the main branch
+The updates in the main branch are committed to save that version of the file.
+
+6. Attempt to merge feature-update into the main
+We attempt to merge the feature-update branch into the main branch. If both branches changed the same part of script.js, a merge conflict may occur. Otherwise, the changes will be merged successfully.
+
+
+
+Question 5
+
+
+1. Create a new file named obsolete.js
+A file called obsolete.js is created as part of the project, possibly for a temporary feature or test.
+
+2. Add and commit the file to the repository
+The file is staged and committed, saving it to the Git history.
+
+3. Realize that obsolete.js is unnecessary and should be removed
+After review, it’s decided that the file is not needed and should be deleted from the project.
+
+4. Remove obsolete.js from the repository
+The file is deleted using Git, and the change is staged for removal.
+
+5. Undo the last commit where obsolete.js was added
+The most recent commit (which added obsolete.js) is undone using a Git command like git reset or git revert, removing the file from both the history and the working directory if desired.
